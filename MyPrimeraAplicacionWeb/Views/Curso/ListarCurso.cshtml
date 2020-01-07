@@ -1,0 +1,21 @@
+﻿
+@{
+    ViewBag.Title = "ListarCurso";
+}
+
+<h2>ListarCurso</h2>
+
+<link href="~/Content/datatables.css" rel="stylesheet" />
+<label>Ingrese nombre: </label>
+<input type="text" id="txtnombre"  />
+<input type="button" id="btnbuscar" value="Buscar" class="btn btn-success"/>
+<input type="button" id="btnlimpiar" value="Limpiar" class="btn btn-primary" />
+
+<div id="tabla">
+
+</div>
+
+
+<script src="~/Scripts/jquery-3.3.1.min.js"></script>
+<script src="~/Scripts/Curso.js"></script>
+<script src="~/Scripts/datatables.min.js"></script>
